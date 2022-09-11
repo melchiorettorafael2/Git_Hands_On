@@ -7,6 +7,7 @@ public class User {
 	private String email;
 	private String id;
 	private int idade;
+	private double salario;
 	
 	public User(String nome, String email, String id) {
 		super();
@@ -37,6 +38,23 @@ public class User {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+	
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
 	}
 
 	@Override
