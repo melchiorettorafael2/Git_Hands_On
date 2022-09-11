@@ -6,6 +6,7 @@ public class User {
 	private String nome;
 	private String email;
 	private String id;
+	private int idade;
 	
 	public User(String nome, String email, String id) {
 		super();
