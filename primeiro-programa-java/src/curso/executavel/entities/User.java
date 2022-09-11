@@ -56,10 +56,6 @@ public class User {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	
-	public String getName() {
-		
-	}
 
 	@Override
 	public int hashCode() {
