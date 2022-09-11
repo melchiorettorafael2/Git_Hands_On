@@ -8,6 +8,7 @@ public class User {
 	private String id;
 	private int idade;
 	private double salario;
+	private String password;
 	
 	public User(String nome, String email, String id) {
 		super();
